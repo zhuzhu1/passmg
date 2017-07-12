@@ -1,7 +1,9 @@
 ### 一个密码管理工具
 **文件**
 PropertiesUtil：存取配置文件
+
 AESUtil：AES256算法
+
 PassManage：入口类
 
 本工具的密码加解密用的AES256算法，密码存储在properties文件里，如下：
@@ -12,8 +14,11 @@ PassManage：入口类
 ```
 
 密码的存取都是通过程序完成，使用方法如下。
+
 **使用方法**
+
 首先需要输入一个主密码，程序不会存储主密码到文件，所以自己一定要记得这个密码。
+
 ```
 Please enter the master password: testmain
 ***********Begin*************
